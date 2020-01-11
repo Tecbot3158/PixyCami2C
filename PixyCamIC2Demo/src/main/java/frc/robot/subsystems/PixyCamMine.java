@@ -1,5 +1,7 @@
 package frc.robot.subsystems;
 
+import edu.wpi.first.wpilibj.AnalogInput;
+import edu.wpi.first.wpilibj.DigitalInput;
 import edu.wpi.first.wpilibj.I2C;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import frc.robot.Constants;
@@ -12,6 +14,8 @@ public class PixyCamMine {
     public I2C port;
     public int address;
     public List<Byte> data = new ArrayList<>(14);
+    DigitalInput digitalInput;
+    AnalogInput analogInput;
 
     /**
      * contains data in the following order:
@@ -29,8 +33,12 @@ public class PixyCamMine {
 
 
     public PixyCamMine() {
+        /*
         address = 0x33;
         port = new I2C(I2C.Port.kMXP, address);
+        */
+        digitalInput = new DigitalInput(0);
+        analogInput = new AnalogInput(0);
 
     }
 
@@ -107,12 +115,26 @@ public class PixyCamMine {
         */
     }
 
+    public int getX(){
+        return this.analogInput.getValue();
+    }
+
+    public boolean objectPresent(){
+        return this.digitalInput.get();
+    }
+
     public List<Byte> getData() {
         return this.data;
     }
     public List<Integer> getFormattedData(){
         return this.formattedData;
     }
+
+    public DigitalInput getDigitalInput(){
+        return this.digitalInput;
+    }
+
+
 
         /*
     data	    index	    new index

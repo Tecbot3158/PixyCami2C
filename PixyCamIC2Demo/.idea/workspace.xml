@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34a94f90-ad90-4c52-851e-0075198be918" name="Default Changelist" comment="" />
+    <list default="true" id="34a94f90-ad90-4c52-851e-0075198be918" name="Default Changelist" comment="Added some libraries and changed to analog input">
+      <change afterPath="$PROJECT_DIR$/.idea/PixyCamIC2Demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frc/robot/resources/TecbotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frc/robot/resources/TecbotSpeedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendordeps/Phoenix.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendordeps/REVRobotics.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendordeps/navx_frc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frc/robot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/robot/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frc/robot/subsystems/PixyCamMine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/robot/subsystems/PixyCamMine.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +63,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="TrevCan &lt;heror0484@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1W88YyrlmKHa0glbIpjnAADbdKz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -58,10 +80,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/frc/robot/resources" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\heror\Documents\GitHub\PixyCami2C\PixyCamIC2Demo\src\main\java\frc\robot\resources" />
+      <recent name="C:\Users\heror\Documents\GitHub\PixyCami2C\PixyCamIC2Demo\vendordeps" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="PixyCamIC2Demo [deploy]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -113,17 +142,27 @@
       <updated>1578519912245</updated>
       <workItem from="1578519916862" duration="2200000" />
       <workItem from="1578582458209" duration="18023000" />
+      <workItem from="1578768734305" duration="2190000" />
+      <workItem from="1578783784132" duration="851000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added some libraries and changed to analog input" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some libraries and changed to analog input" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578520040292">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1578520040292" />
+    <state x="160" y="0" key="CommitChangelistDialog2" timestamp="1578784648987">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="160" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1578784648987" />
     <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1578614313821">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -140,14 +179,14 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1578614313821" />
-    <state x="337" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1578582517719">
+    <state x="337" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1578783805000">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="337" y="184" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1578582517719" />
-    <state width="604" height="290" key="javadoc.popup.new" timestamp="1578613211819">
+    <state x="337" y="184" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1578783805000" />
+    <state width="604" height="290" key="javadoc.popup.new" timestamp="1578769155896">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="604" height="290" key="javadoc.popup.new/0.0.1280.720@0.0.1280.720" timestamp="1578613211819" />
+    <state width="604" height="290" key="javadoc.popup.new/0.0.1280.720@0.0.1280.720" timestamp="1578769155896" />
     <state x="297" y="161" key="run.anything.popup" timestamp="1578607017570">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

@@ -86,11 +86,12 @@ public class Robot extends TimedRobot {
         // teleop starts running. If you want the autonomous to
         // continue until interrupted by another command, remove
         // this line or comment it out.
+        /*
         m_robotContainer.getPixyCamMIne().getFormattedData().add(0);
         m_robotContainer.getPixyCamMIne().getFormattedData().add(0);
         m_robotContainer.getPixyCamMIne().getFormattedData().add(0);
         m_robotContainer.getPixyCamMIne().getFormattedData().add(0);
-
+        */
     }
 
     /**
@@ -107,6 +108,9 @@ public class Robot extends TimedRobot {
         //System.out.println(successful);
         //*****************************************
         //m_robotContainer.getPixyCami2C().read();
+
+
+        /*
         byte[] bytes = new byte[16];
         int lastX = m_robotContainer.getPixyCamMIne().getFormattedData().get(0);
         int lastY = m_robotContainer.getPixyCamMIne().getFormattedData().get(1);
@@ -146,6 +150,11 @@ public class Robot extends TimedRobot {
         SmartDashboard.putNumber("width", width);
         SmartDashboard.putNumber("height", height);
 
+
+        */
+
+        SmartDashboard.putNumber("X",m_robotContainer.getPixyCamMIne().getX());
+        SmartDashboard.putBoolean("objectPresent",m_robotContainer.getPixyCamMIne().objectPresent());
     }
 
     @Override
@@ -161,5 +170,6 @@ public class Robot extends TimedRobot {
     @Override
     public void testPeriodic() {
     }
+
 
 }
