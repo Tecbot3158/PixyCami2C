@@ -9,6 +9,7 @@ package frc.robot;
 
 import edu.wpi.first.wpilibj.GenericHID;
 import edu.wpi.first.wpilibj.XboxController;
+import frc.robot.subsystems.Chassis;
 import frc.robot.subsystems.PixyCamMine;
 import frc.robot.subsystems.PixyCami2C;
 import edu.wpi.first.wpilibj2.command.Command;
@@ -24,6 +25,7 @@ public class RobotContainer {
 
     private final PixyCami2C pixyCami2C;
     private PixyCamMine pixyCamMine;
+    private Chassis chassis;
 
     /**
      * The container for the robot.  Contains subsystems, OI devices, and commands.
@@ -35,6 +37,7 @@ public class RobotContainer {
         pixyCami2C = null;
         pixyCamMine = new PixyCamMine();
         //pixyCamMine = null;
+        chassis = new Chassis();
     }
 
     /**
@@ -63,6 +66,10 @@ public class RobotContainer {
 
     public PixyCamMine getPixyCamMIne() {
         return this.pixyCamMine;
+    }
+
+    public Chassis getChassis(){
+        return this.chassis;
     }
 
 

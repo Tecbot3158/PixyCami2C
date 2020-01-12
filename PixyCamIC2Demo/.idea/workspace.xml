@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34a94f90-ad90-4c52-851e-0075198be918" name="Default Changelist" comment="Added some libraries and changed to analog input">
-      <change afterPath="$PROJECT_DIR$/.idea/PixyCamIC2Demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/robot/resources/TecbotController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/robot/resources/TecbotSpeedController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendordeps/Phoenix.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendordeps/REVRobotics.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendordeps/navx_frc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="34a94f90-ad90-4c52-851e-0075198be918" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/frc/robot/resources/Math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frc/robot/resources/RobotMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frc/robot/subsystems/Chassis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/frc/robot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/robot/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/robot/subsystems/PixyCamMine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/robot/subsystems/PixyCamMine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frc/robot/RobotContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/robot/RobotContainer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +53,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FRC Subsystem" />
         <option value="Class" />
       </list>
     </option>
@@ -143,8 +138,16 @@
       <workItem from="1578519916862" duration="2200000" />
       <workItem from="1578582458209" duration="18023000" />
       <workItem from="1578768734305" duration="2190000" />
-      <workItem from="1578783784132" duration="851000" />
+      <workItem from="1578783784132" duration="4046000" />
     </task>
+    <task id="LOCAL-00001" summary="Added some libraries and changed to analog input">
+      <created>1578784662120</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578784662120</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,41 +162,49 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1578520040292" />
-    <state x="160" y="0" key="CommitChangelistDialog2" timestamp="1578784648987">
+    <state x="160" y="0" key="CommitChangelistDialog2" timestamp="1578784661423">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="160" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1578784648987" />
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1578614313821">
+    <state x="160" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1578784661423" />
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1578787834489">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1578614313821" />
-    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1578614313821">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1578787834489" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1578787834489">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1578614313821" />
-    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1578614313821">
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1578787834489" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1578787834489">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1578614313821" />
-    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1578614313821">
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1578787834489" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1578787834489">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1578614313821" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1578787834489" />
+    <state x="233" y="93" key="Vcs.Push.Dialog.v2" timestamp="1578784668248">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1578784668248" />
     <state x="337" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1578783805000">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="337" y="184" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1578783805000" />
-    <state width="604" height="290" key="javadoc.popup.new" timestamp="1578769155896">
+    <state width="604" height="290" key="javadoc.popup.new" timestamp="1578785903885">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="604" height="290" key="javadoc.popup.new/0.0.1280.720@0.0.1280.720" timestamp="1578769155896" />
-    <state x="297" y="161" key="run.anything.popup" timestamp="1578607017570">
+    <state width="604" height="290" key="javadoc.popup.new/0.0.1280.720@0.0.1280.720" timestamp="1578785903885" />
+    <state x="282" y="87" width="700" height="530" key="recent.locations.popup" timestamp="1578786417800">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1578607017570" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1578583096541">
+    <state x="282" y="87" width="700" height="530" key="recent.locations.popup/0.0.1280.720@0.0.1280.720" timestamp="1578786417800" />
+    <state x="297" y="161" key="run.anything.popup" timestamp="1578787441266">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1578583096541" />
+    <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1578787441266" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1578786325175">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1578786325175" />
   </component>
 </project>
