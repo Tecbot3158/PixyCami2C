@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34a94f90-ad90-4c52-851e-0075198be918" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/robot/resources/Math.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/robot/resources/RobotMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/frc/robot/subsystems/Chassis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/robot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/robot/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/robot/RobotContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frc/robot/RobotContainer.java" afterDir="false" />
-    </list>
+    <list default="true" id="34a94f90-ad90-4c52-851e-0075198be918" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +131,7 @@
       <workItem from="1578519916862" duration="2200000" />
       <workItem from="1578582458209" duration="18023000" />
       <workItem from="1578768734305" duration="2190000" />
-      <workItem from="1578783784132" duration="4046000" />
+      <workItem from="1578783784132" duration="4287000" />
     </task>
     <task id="LOCAL-00001" summary="Added some libraries and changed to analog input">
       <created>1578784662120</created>
@@ -147,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578784662120</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Chassis.java subsystem">
+      <created>1578788066806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578788066806</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,17 +155,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added some libraries and changed to analog input" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some libraries and changed to analog input" />
+    <MESSAGE value="Added Chassis.java subsystem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Chassis.java subsystem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578520040292">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1578520040292" />
-    <state x="160" y="0" key="CommitChangelistDialog2" timestamp="1578784661423">
+    <state x="160" y="0" key="CommitChangelistDialog2" timestamp="1578788066183">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="160" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1578784661423" />
+    <state x="160" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1578788066183" />
     <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1578787834489">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -182,10 +183,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1578787834489" />
-    <state x="233" y="93" key="Vcs.Push.Dialog.v2" timestamp="1578784668248">
+    <state x="233" y="93" key="Vcs.Push.Dialog.v2" timestamp="1578788070235">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1578784668248" />
+    <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1578788070235" />
     <state x="337" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1578783805000">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
