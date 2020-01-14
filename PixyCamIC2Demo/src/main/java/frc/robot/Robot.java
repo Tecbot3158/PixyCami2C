@@ -101,7 +101,6 @@ public class Robot extends TimedRobot {
      */
     @Override
     public void teleopPeriodic() {
-        int x = 0, y = 0, width = 0, height = 0;
         //m_robotContainer.getPixyCami2C().read();
         //System.out.println(bytes[4]);
         //System.out.println(Byte.toUnsignedInt(bytes.get(4)));
@@ -155,8 +154,22 @@ public class Robot extends TimedRobot {
 
         */
 
-        SmartDashboard.putNumber("X",m_robotContainer.getPixyCamMIne().getX());
-        SmartDashboard.putBoolean("objectPresent",m_robotContainer.getPixyCamMIne().objectPresent());
+        double x;
+        x = m_robotContainer.getPixyCamMIne().getX();
+        boolean objectPresent = m_robotContainer.getPixyCamMIne().objectPresent();
+
+        SmartDashboard.putNumber("My X",x);
+        SmartDashboard.putBoolean("My objectPresent",objectPresent);
+
+        double turnCorrection = .01;
+
+            x -=1285;
+            x *= turnCorrection;
+            x/=20;
+
+        System.out.println(x);
+        if(objectPresent) m_robotContainer.getChassis().drive(x, 0);
+
     }
 
     @Override

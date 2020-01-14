@@ -41,11 +41,11 @@ public class Chassis extends SubsystemBase {
         double rightSpeed = speed -turn;
 
         for (TecbotSpeedController m : leftChassisMotors) {
-            m.set(Math.clamp(-0.3,0.3,leftSpeed));
+            m.set(Math.clamp(-0.15,0.15,leftSpeed));
 
         }
         for (TecbotSpeedController m : rightChassisMotors) {
-            m.set(Math.clamp(-0.3,0.3,rightSpeed));
+            m.set(Math.clamp(-0.15,0.15,rightSpeed));
         }
     }
 
@@ -53,12 +53,6 @@ public class Chassis extends SubsystemBase {
     public void periodic() {
         // This method will be called once per scheduler run
 
-        if(Robot.m_robotContainer.getPixyCamMIne().objectPresent()){
-            double turn = (Robot.m_robotContainer.getPixyCamMIne().getX()-4);
-            drive(0,0);
-        } else {
-            drive(0,0);
-        }
         //drive(SmartDashboard.getNumber("turn",0),SmartDashboard.getNumber("speed",0));
 
     }
